@@ -1,7 +1,7 @@
-growth_curves
+MRI growth curves
 ==============================
 
-MRI growth curves for normal and abnormal neurodevelopment
+MRI growth curves for mapping normal and abnormal neurodevelopment
 
 Project Organization
 ------------

@@ -6,7 +6,7 @@ Neurodevelopment Growth Charts Project (v 1)
 "Modelling Normative Growth in Paediatric MRI for the Mapping of Neurodevelopmental Abnormalities",
 4th April 2024.
 
-[For research use only]
+[**For research use only**]
 
 A Keenlyside,
 Dept. Medical Physics and Biomedical Engineering, UCL. 
@@ -18,8 +18,8 @@ Great Ormond Street Institute of Child Health, UCL.
 This project aims to model normal neurodevelopment and compare either individual scans or 
 cohorts of scans to a control dataset to identify focal abnormalities.
 
-
 **Code for normative modelling is within growth_charts/scr/R Normative Modelling Scrips**
+
 
 
 

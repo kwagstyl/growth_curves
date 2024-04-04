@@ -19,10 +19,13 @@ This project aims to model normal neurodevelopment and compare either individual
 cohorts of scans to a control dataset to identify focal abnormalities.
 
 
-
 **Code for normative modelling is within growth_charts/scr/R Normative Modelling Scrips**
 
+
+
 Included R Model Scripts:
+
+
 function_extract_synthseg.R - extracts BIDS formatted segmentation volumes into a R dataframe and       creates a .csv dataset. 
 
 compare_individual_scan.R - A structure to call the scripts for analysis a new volume dataset for an individual patient.
@@ -48,7 +51,10 @@ ROC_logistic_regression.R - Carries out structure-by-structre linear regressions
 multigroup_descrimination_analysis.R - Trains a MGDA model to descriminate between 2 or more pathological groups vs control. Creates probability map based on 2 key vaiables. Best used for comparing diseases with variants by hemisphere.
 
 
+
+
 Notes:
+
 Please check the formatting of segmented cohorts (BIDS formatting).
 These scripts produce various files, please create a new folder as a destination.
 

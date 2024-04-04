@@ -17,18 +17,18 @@ This project aims to model normal neurodevelopment and compare either individual
 cohorts of scans to a control dataset to identify focal abnormalities.
 
 Included R Model Scripts:
-function_extract_synthseg.R
-compare_individual_scan.R
-compare_new_cohort.R
-function_extract_z.R
-growth_chartss.R
-create_z_distributions.R
-plot_longitudinal_z.R
-compare_two_strucures.R
-multiple_testing_correction.R
-multivariate_logistic_regression.R
-ROC_logistic_regression.R
-multigroup_descrimination_analysis.R 
+function_extract_synthseg.R,
+compare_individual_scan.R,
+compare_new_cohort.R,
+function_extract_z.R,
+growth_chartss.R,
+create_z_distributions.R,
+plot_longitudinal_z.R,
+compare_two_strucures.R,
+multiple_testing_correction.R,
+multivariate_logistic_regression.R,
+ROC_logistic_regression.R,
+multigroup_descrimination_analysis.R
 
 
 Notes:

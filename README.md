@@ -7,6 +7,7 @@ Neurodevelopment Growth Charts Project (v 1)
 4th April 2024.
 
 [**For research use only**]
+   
 
 A Keenlyside,
 Dept. Medical Physics and Biomedical Engineering, UCL. 
@@ -19,12 +20,12 @@ This project aims to model normal neurodevelopment and compare either individual
 cohorts of scans to a control dataset to identify focal abnormalities.
 
 **Code for normative modelling is within growth_charts/scr/R Normative Modelling Scrips**
-
-
-
+   
+   
+   
 
 Included R Model Scripts:
-
+   
 
 function_extract_synthseg.R - extracts BIDS formatted segmentation volumes into a R dataframe and       creates a .csv dataset. 
 

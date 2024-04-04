@@ -1,7 +1,6 @@
 MRI growth curves
 ==============================
 
-##Neurodevelopment Growth Charts Project (v 1)
 
 "Modelling Normative Growth in Paediatric MRI for the Mapping of Neurodevelopmental Abnormalities",
 4th April 2024.
@@ -52,10 +51,11 @@ cohorts of scans to a control dataset to identify focal abnormalities (Code for 
 
 
 
-Notes:
+## Notes:
 
 Please check the formatting of segmented cohorts (BIDS formatting).
-These scripts produce various files, please create a new folder as a destination.
+These scripts produce various files, please create a new folder as a destination before use.
+
 
 Project Organization
 ------------

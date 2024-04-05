@@ -9,10 +9,12 @@ MRI growth curves
    
 
 A Keenlyside,
+
 Dept. Medical Physics and Biomedical Engineering, UCL. 
 andrew.keenlyside.23@ucl.ac.uk
 
 Supervisor: K Wagstyl,
+
 Great Ormond Street Institute of Child Health, UCL.
 
 This project aims to model normal neurodevelopment and compare either individual scans or 
@@ -61,52 +63,41 @@ Project Organization
 ------------
 
     ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
+    │   
+    ├── R Normative Modelling Scripts               <- All code relevant to normative modelling 
+    │   │  
+    │   ├── Growth Curves     <- Scripts to extract volumes and build centile-based growth curves
+    │   │   ├── function_extract_synthseg.R 
+    │   │   ├── growth_charts.R
+    │   │   └── plot_logitudinal.R
+    │   │   
+    │   │  
+    │   ├── Formatting     <- Scripts for formatting datasets
+    │   │   └── modify_ATP1A3_for_timepoints.R
+    │   │   
+    │   │  
+    │   ├── Individual Analysis     <- Scripts to analyse 1 new scan           
+    │   │   ├── compare_individual_scan.R
+    │   │   ├── extract_z_scores.R
+    │   │   ├── z_barplot.R
+    │   │   ├── make_gif.R
+    │   │   └── custom_MRI_mask.R
+    │   │  
+    │   │  
+    │   ├── Cohort Analysis     <- Scripts to analysed a clinical cohort of new scans (>20)
     │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │   │  └── visualize.py
-    │   └── R              <- R scripts
+    │   │   ├── create_z_datasets.R
+    │   │   ├── create_z_distributions.R
+    │   │   ├── compare_two_structures.R
+    │   │   ├── ROC_logistic_regression.R
+    │   │   ├── multiple_test_correction.R
+    │   │   ├── multivariate_logistic_regression_ATP1A3.R
+    │   │   └── multigroup_discrimination_analysis_HS.R
     │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+    └── R Normative Model Flowchart.pdf   <- schematic of code interactions 
 
 
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+Control and limited clinical cohort data may be made available at a later date.

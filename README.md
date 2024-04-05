@@ -86,7 +86,7 @@ Project Organization
     │   │  
     │   │  
     │   ├── Cohort Analysis     <- Scripts to analysed a clinical cohort of new scans (>20)
-    │   │   │                 predictions
+    │   │   │           
     │   │   ├── create_z_datasets.R
     │   │   ├── create_z_distributions.R
     │   │   ├── compare_two_structures.R
